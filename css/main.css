@@ -1,0 +1,219 @@
+/*******body*********
+****************/
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background: url('../img/light_noise_diagonal.png');
+}
+
+footer {
+  font-size: 0.75em;
+  line-height: .35em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+
+/****************
+main header
+****************/
+
+.main-header {
+background: url('../img/Wire2Wire.png')no-repeat center;	
+background-size: cover;
+border: 1px solid #666666;
+margin: 25px 5px;
+padding: 5px, 10px;
+height: 100px;
+}
+
+.subheading h2 {
+	text-decoration: none;
+	margin: 75px 25px;
+	text-align: left;
+	
+	font-size: .45em;
+	
+}
+
+/****************
+Home Page
+****************/
+
+/****************
+About
+ ***************/
+#about_retainer {
+	width: 620px;
+	height: 285px;
+	margin: 5px 0 0 7px;
+}
+
+/****************
+Products
+ ***************/
+#product_retainer {
+	width: 75%;
+	height: 285px;
+	margin: auto;
+}
+
+/****************
+Contact
+ ***************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+
+}
+
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+
+}
+
+.info_contact {
+	margin: 3px;
+}
+
+.details {
+	margin: 5px 0 0 15px;
+}
+
+
+/****************
+Navigation
+****************/
+
+/*
+nav {
+text-align: center;
+list-style: none;
+color: #699FD4;
+}
+
+nav li {
+display: inline-block;
+}
+
+.main-nav {
+color: #699FD4;
+}
+*/
+
+ul nav-item {
+ color: #699FD4;
+}
+
+
+/****************
+ Scrolling Nav
+****************/
+#carouselExampleIndicators {
+	width: 100%;
+	min-height: 200px;
+	margin: auto;
+	padding: 10px;
+}
+
+/****************
+Info section margin
+****************/
+.info {
+	
+}
+
+/****************
+Media Queries
+****************/
+@media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+	#about_retainer {
+	width: 360px;
+	height: 200px;
+	margin: 10px 0 0 22px;
+}
+	#product_retainer{
+	width: 360px;
+	height: 200px;
+	margin: 10px 0 0 22px;
+	}
+  }
+
+@media (min-width: 768px) {
+    .main-header {
+		width: 100%;
+        margin: 5px 10px 0 0;
+		height: 200px;
+		
+    }  
+	
+	.owner {
+		margin: 35px;
+	}
+	
+	.subheading {
+		padding: 150px;
+		
+	}
+	
+	nav {
+		text-align: center;
+		list-style: none;
+}
+
+	nav li {
+		display: inline-block;
+}
+	
+	.main-nav li {
+		padding: 15px;
+		
+	}
+	
+	.main-nav {
+		margin: -120px 15px;
+	}
+	
+	.info_contact {
+		margin: 10px;
+	}
+	
+	
+	
+	
+footer {
+  font-size: 0.75em;
+  line-height: .35em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+}
